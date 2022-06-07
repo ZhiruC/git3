@@ -24,7 +24,7 @@
         - ca-certificates
         - software-properties-common
         - lsb-release
-        - gnupg
+        - gnupg2
         - libseccomp2
         - build-essential
         - apt-transport-https
