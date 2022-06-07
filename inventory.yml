@@ -18,5 +18,5 @@ nodes:
       ansible_host: 192.168.15.13
       ansible_user: vagrant
     formation:
-      formation_host: 141.95.153.108
-      formation_user: formation
+      ansible_host: 141.95.153.108
+      ansible_user: formation
