@@ -4,7 +4,7 @@ nodes:
   hosts:
     nodeVm:
       ansible_host: 141.95.153.201
-      ansible_user: formation
+      ansible_user: nodeVM
     node01:
       ansible_host: 192.168.15.10
       ansible_user: vagrant
