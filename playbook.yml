@@ -59,6 +59,5 @@
       clone: yes
       update: no
   - name: docker compose
-    shell: "cd AppFlask; sudo docker compose up --build -d --scale app=3
-"
+    shell: "cd AppFlask; sudo docker compose up --build -d --scale app=3"
     become: 'yes'
