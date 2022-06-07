@@ -1,6 +1,6 @@
 - name : Playbook_test
-  hosts: nodeVm
-  remote_user: vagrant
+  hosts: formation
+  remote_user: formation
   tasks:
   - name: stat AppFlask
     stat: 
