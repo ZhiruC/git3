@@ -1,0 +1,19 @@
+---
+
+nodes:
+  hosts:
+    nodeVm:
+      ansible_host: 141.95.153.201
+      ansible_user: formation
+    node01:
+      ansible_host: 192.168.15.10
+      ansible_user: vagrant
+    node02:
+      ansible_host: 192.168.15.11
+      ansible_user: vagrant
+    node03:
+      ansible_host: 192.168.15.12
+      ansible_user: vagrant
+    node04:
+      ansible_host: 192.168.15.13
+      ansible_user: vagrant
