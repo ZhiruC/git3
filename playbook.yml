@@ -1,6 +1,6 @@
 - name : Playbook_test
-  hosts: formation
-  remote_user: formation
+  hosts: AWS
+  remote_user: AWS
   tasks:
   - name: stat AppFlask
     stat: 
