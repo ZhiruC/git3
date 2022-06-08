@@ -29,7 +29,7 @@
         - build-essential
         - apt-transport-https
         - git
-        - docker-ce
+        - containerd.io
      state: latest
     become: 'yes'
   - name: Add Docker GPG apt Key
