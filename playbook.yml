@@ -28,6 +28,7 @@
         - libseccomp2
         - build-essential
         - apt-transport-https
+        - git
      state: latest
     become: 'yes'
   - name: Add Docker GPG apt Key
