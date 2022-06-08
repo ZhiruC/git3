@@ -56,9 +56,9 @@
 #    become: 'yes'
   - name: clone git
     git:
-      repo: https://github.com/ZhiruC/git3.git
+      repo: https://github.com/NaimAssoumani/Projets_Devops_flask.git
       dest: /home/vagrant/AppFlask
-      version: master
+      version: aws
       clone: yes
       update: no
   - name: docker compose
