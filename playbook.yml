@@ -14,7 +14,8 @@
     file:
       state: absent
       path: /home/admin/AppFlask/
-    when: foo.stat.exists    
+    when: foo.stat.exists
+    become: 'yes' 
   - name: installation python & outils
     apt: 
      name:
