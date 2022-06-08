@@ -50,7 +50,7 @@
          - containerd.io
          - docker-compose-plugin
       state: latest
-      update_cache: true
+      #update_cache: true
     become: 'yes'
   - name: clone git
     git:
