@@ -29,6 +29,7 @@
         - build-essential
         - apt-transport-https
         - git
+        - docker-ce
      state: latest
     become: 'yes'
   - name: Add Docker GPG apt Key
