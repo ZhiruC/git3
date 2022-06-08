@@ -4,7 +4,7 @@
   tasks:
   - name: stat AppFlask
     stat: 
-      path: /home/vagrant/AppFlask
+      path: /home/admin/AppFlask
     register: foo
   - name: suppresion docker
     shell: "cd AppFlask; sudo docker compose down; sudo docker system prune --all -f"
@@ -13,7 +13,7 @@
   - name: suppresion repo Appflask
     file:
       state: absent
-      path: /home/vagrant/AppFlask/
+      path: /home/admin/AppFlask/
     when: foo.stat.exists    
   - name: installation python & outils
     apt: 
@@ -57,7 +57,7 @@
   - name: clone git
     git:
       repo: https://github.com/NaimAssoumani/Projets_Devops_flask.git
-      dest: /home/vagrant/AppFlask
+      dest: /home/admin/AppFlask
       version: aws
       clone: yes
       update: no
