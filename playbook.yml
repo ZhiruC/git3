@@ -1,6 +1,6 @@
 - name : Playbook_test
-  hosts: AWS
-  remote_user: AWS
+  hosts: mywebserver-zhiru
+  remote_user: mywebserver-zhiru
   tasks:
   - name: stat AppFlask
     stat: 
