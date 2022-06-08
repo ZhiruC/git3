@@ -20,3 +20,6 @@ nodes:
     formation:
       ansible_host: 141.95.153.108
       ansible_user: formation
+    AWS:
+      ansible_host: 18.218.6.133
+      ansible_user: AWS
